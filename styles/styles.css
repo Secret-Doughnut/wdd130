@@ -5,6 +5,10 @@
     --solid-border: border: solid;
 }
 
+body {
+    font-family: 'Comic Sans';
+    font-size: 20px;
+}
 
 nav {
     background-color: darkblue;
@@ -19,6 +23,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    font-family: 'Arial Black';
 }
 
 main img {

@@ -41,6 +41,7 @@ main {
 
 p {
     padding: 0;
+    font-family: 'roboto';
 }
 
 aside {
@@ -62,4 +63,8 @@ footer {
     margin-top: 30px;
     border-top: 1px solid white;
     text-align: var(--text-centering)
+}
+
+header {
+    font-family: 'Sansita';
 }

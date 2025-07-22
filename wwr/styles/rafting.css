@@ -25,7 +25,6 @@ header {
 .header-links a {
     padding: 10px;
     margin: 0;
-    width: 10%;
 }
 
 .center-image {
@@ -92,7 +91,6 @@ article {
     float: right;
     width: 125px;
 }
-
 
 .hero {
     position: relative;

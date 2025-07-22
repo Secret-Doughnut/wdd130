@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #808DB3;
+    --primary-color: #273f8d;
     --secondary-color: #C0AFB8;
     --accent-color-1: #ffc78b;
-    --accent-color-2: #921d00;
+    --accent-color-2: #490f00;
     --heading-font: "Sansita", san-serif;
     --text-font: "Roboto", san-serif;
 }
@@ -102,6 +102,10 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero h1 {
+    color: navy;
 }
 
 header, main, footer {

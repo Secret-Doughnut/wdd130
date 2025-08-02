@@ -1,6 +1,6 @@
 :root {
     --primary-color: #273f8d;
-    --secondary-color: #C0AFB8;
+    --secondary-color: #e4d2dc;
     --accent-color-1: #ffc78b;
     --accent-color-2: #490f00;
     --heading-font: "Sansita", san-serif;
@@ -133,5 +133,51 @@ footer {
     width: 40px;
     height: auto;
     position: relative;
-    left: 238%;
+    left: 40px;
+}
+
+
+.firework {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    padding: 20px;
+}
+
+.firework fieldset {
+    background-color: var(--secondary-color);
+}
+
+.workers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.workers h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.workers img {
+    width: 90px;
+    height: 90px;
+}
+
+.workers figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workers figcaption {
+    padding: 10px;
+}
+
+.victory {
+    background-color: rgb(224, 247, 255);
+    border-radius: 0.5rem;
+}
+
+.victory div, label, input {
+    padding: 2px;
 }

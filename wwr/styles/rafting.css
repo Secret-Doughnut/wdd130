@@ -150,17 +150,13 @@ footer {
 .workers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px;
-}
-
-.workers h2 {
-    grid-column: 1 / -1;
-    text-align: center;
+    padding: 2px;
+    margin-top: -25px;
 }
 
 .workers img {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
 }
 
 .workers figure {
@@ -173,6 +169,15 @@ footer {
     padding: 10px;
 }
 
+.workers h1 {
+    position: relative;
+    background-color: transparent;
+    color: var(--primary-color);
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 25px;
+}
+
 .victory {
     background-color: rgb(224, 247, 255);
     border-radius: 0.5rem;
@@ -181,3 +186,14 @@ footer {
 .victory div, label, input {
     padding: 2px;
 }
+
+/* h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent-color-1);
+    color: #fff;
+} */

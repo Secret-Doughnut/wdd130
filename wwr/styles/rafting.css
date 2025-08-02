@@ -176,6 +176,7 @@ footer {
     grid-column: 1 / -1;
     text-align: center;
     padding: 25px;
+    font-size: 25px;
 }
 
 .victory {
@@ -186,14 +187,3 @@ footer {
 .victory div, label, input {
     padding: 2px;
 }
-
-/* h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent-color-1);
-    color: #fff;
-} */

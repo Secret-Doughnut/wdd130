@@ -166,7 +166,7 @@ footer {
     width: 40px;
     height: auto;
     position: relative;
-    left: 340px;
+    left: 320px;
 
 }
 
@@ -174,8 +174,8 @@ footer {
     width: 40px;
     height: auto;
     position: relative;
-    left: 290px;
-    bottom: 65px;
+    left: 20px;
+    bottom: 10px;
 }
 
 .firework {
@@ -245,10 +245,12 @@ footer {
 
 .table {
     justify-self: center;
+    border: solid;
 }
 
 .table td {
     padding: 10px;
+    border: solid rgb(87, 63, 63);
 }
 
 .almost {
